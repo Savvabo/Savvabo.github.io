@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="cursor-hw-3.css">
+    <script>
+        var today = new Date();
+        var month = new Date();
+        var today = today.getDate();
+        var month = month.getMonth() + 1;
+
+        if (today < 10) {
+            today = '0' + today;
+        }
+        if (month < 10) {
+            month = '0' + month;
+        }
+        month = '/' + month;
+    </script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="main-container">
+        <i class="fas fa-bars"></i>
+        <span class="he-he">Savvabo</span>
+        <img class="top-img" src="https://picua.org/images/2019/02/26/a50c9a6015e981a2746e3f1e2bb82e7d.png" alt="">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-indicators">
+                <div data-target="#carouselExampleIndicators" class="active" data-slide-to="0">
+                    <div class="hero">IRON MAN
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <div class="circle"></div>
+                </div>
+                <div data-target="#carouselExampleIndicators" data-slide-to="1">
+                    <div class="hero hero-2">SPIDER MAN
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <div class="circle circle-2"></div>
+                </div>
+                <div data-target="#carouselExampleIndicators" data-slide-to="2">
+                    <div class="hero hero-3">CAPITAN AMERICA</div>
+                    <div class="circle circle-3"></div>
+                </div>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-item-container">
+                        <div class="row">
+                            <div class="col-5 p-0">
+                                <span class="title ">iron
+                                  <span class="small-row"></span>
+                                </span>
+                                <img class="iron-icon"
+                                     src="https://picua.org/images/2019/02/25/eafc21774affbc7d717e93c89cc354ef.png"
+                                     alt="">
+                                <div class="current-date">
+                                    <span class="current-day"><script>document.write(today)</script></span>
+                                    <span class="current-month"><script>document.write(month)</script></span>
+                                </div>
+                                <span class="sub-title">Marvel Comics Super Hero</span>
+                            </div>
+                            <div class="col-7 p-0">
+                                <div class="item-container">
+                                    <div class="title title-1"> man</div>
+                                    <a href="https://www.youtube.com/watch?v=7rrlKfyU-hE" class="main-button"> How to kill Thanos?)</a>
+                                    <a class="additional-info" href="http://mentalfloss.com/article/52635/10-things-you-might-not-know-about-avengers">
+                                        Let's read smth interesting
+                                        <i class="fas fa-circle"></i>
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-item-container">
+                        <div class="row">
+                            <div class="col-5 p-0">
+                                <span class="title title-2">spider
+                                     <span class="small-row"></span>
+                                </span>
+                                <img class="spider-icon"
+                                     src="https://picua.org/images/2019/02/25/58ccda2ebd7bf5f025ed2156ef9e0e57.png"
+                                     alt="">
+                                <div class="current-date">
+                                    <span class="current-day"><script>document.write(today)</script></span>
+                                    <span class="current-month"><script>document.write(month)</script></span>
+                                </div>
+                                <span class="sub-title">Marvel Comics Super Hero</span>
+                            </div>
+                            <div class="col-7 p-0">
+                                <div class="item-container">
+                                    <div class="title"> man</div>
+                                    <a href="https://www.psu.com/news/marvels-spider-man-ps4-guide-how-to-beat-doctor-octopus/" class="main-button">How to kill Doctor Octopus?)</a>
+                                    <a class="additional-info" href="http://mentalfloss.com/article/52635/10-things-you-might-not-know-about-avengers">
+                                        Let's read smth interesting
+                                        <i class="fas fa-circle"></i>
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-item-container">
+                        <div class="row">
+                            <div class="col-5 p-0">
+                                <span class="title title-2">capitan
+                                <span class="small-row"></span>
+                                </span>
+                                <img class="capitan-icon"
+                                     src="https://picua.org/images/2019/02/25/e7c1264b65720efe514ad13ca43e0948.png"
+                                     alt="">
+                                <div class="current-date">
+                                    <span class="current-day"><script>document.write(today)</script></span>
+                                    <span class="current-month"><script>document.write(month)</script></span>
+                                </div>
+                                <span class="sub-title">Marvel Comics Super Hero</span>
+                            </div>
+                            <div class="col-7 p-0">
+                                <div class="item-container">
+                                    <div class="title"> america</div>
+                                    <a href="https://www.youtube.com/watch?v=cuUIaVRe7To" class="main-button"> How to kill Red Skull?)</a>
+                                    <a class="additional-info" href="http://mentalfloss.com/article/52635/10-things-you-might-not-know-about-avengers">
+                                        Let's read smth interesting
+                                        <i class="fas fa-circle"></i>
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous">
+
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"
+        integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP"
+        crossorigin="anonymous">
+
+</script>
+</body>
+</html>

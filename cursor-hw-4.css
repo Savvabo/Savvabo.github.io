@@ -408,6 +408,24 @@ footer {
     }
 }
 
+@media screen and (min-width: 1920px) {
+    .main-social-container {
+        height: 11.2vw;
+    }
+
+    .main-social-container span {
+        line-height: 11.2vw;
+    }
+
+    .social-icon-container {
+        top: 4.2vw;
+    }
+
+    .cooperation-container {
+        top: 4.4vw;
+    }
+}
+
 @media screen and (max-width: 414px) {
     .header-icon {
         background-size: 14vw;

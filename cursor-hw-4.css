@@ -408,7 +408,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 1920px and max-width: 1920px) {
     .main-social-container {
         height: 11.2vw;
     }

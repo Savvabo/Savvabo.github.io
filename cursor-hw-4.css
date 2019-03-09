@@ -12,17 +12,17 @@ body {
     background-color: white;
     position: absolute;
 }
-/*header {*/
-    /*margin: 0 30vw;*/
-/*}*/
-/* .header-icon {
+header {
+    margin: 0 30vw;
+}
+.header-icon {
     background-image: url(https://picua.org/images/2019/02/26/735de314a48cef5bd8b098e42d48f8c2.png);
     background-repeat: no-repeat;
     background-size: 5vw;
     margin: 2vw auto 1vw;
     width: 5vw;
     height: 6vw;
-} */
+} 
 .header-title {
     font-size: 1.5vw;
     color: #00093a;

@@ -1,10 +1,10 @@
-//                      2       A function, which returns reversed string.
+//                      2       A function, which returns reversed str.
 
-function reverseString(string) {
-    return (string === '') ? '' : reverseString(string.substr(1)) + string.charAt(0);
+function reverseString(str) {
+    return (str === '') ? '' : reverseString(str.substr(1)) + str.charAt(0);
 }
 
-console.log("A function which returns reversed string:    ");
+console.log("A function which returns reversed str:    ");
 console.log(reverseString("abc"));
 console.log("   ");
 
@@ -60,15 +60,15 @@ function printPyramid(n) {
 printPyramid(3);
 console.log("   ");
 
-//                      7       A function, which transforms first and last letter to uppercase (use built in string’s method).
+//                      7       A function, which transforms first and last letter to uppercase (use built in str’s method).
 let phrase = 'mamo, zlipy meni snizhku';
 let uppercaseSome = phrase.charAt(0).toUpperCase() + phrase.substr(1) + phrase.charAt(phrase.length - 1).toUpperCase();
-console.log('A function which transforms first and last letter to uppercase (use built in string’s method): ');
+console.log('A function which transforms first and last letter to uppercase (use built in str’s method): ');
 console.log(uppercaseSome);
 console.log("   ");
 
 
-//                      8       A function which returns true if string contains ironman or cursor or ostap otherwise returns false. The function must be case-insensitive.
+//                      8       A function which returns true if str contains ironman or cursor or ostap otherwise returns false. The function must be case-insensitive.
 
 
 const matchingWords = "ironman, cursor, ostap";
@@ -83,32 +83,32 @@ function cursorCheck(word) {
     }
 }
 
-console.log('A function which returns true if string contains ironman or cursor or ostap otherwise returns false. The function must be case-insensitive: ');
+console.log('A function which returns true if str contains ironman or cursor or ostap otherwise returns false. The function must be case-insensitive: ');
 cursorCheck(oneWord);
 cursorCheck(anotherWord);
-console.log("   ");
+    console.log("   ");
 
 
-//                      9       A function, which returns a string with all letters in uppercase (without built in string’s method). The function supports only english alphabet.
+//                      9       A function, which returns a str with all letters in uppercase (without built in str’s method). The function supports only english alphabet.
 let onePhrase = 'mamo, zlipy meni snizhku';
 let uppercase = onePhrase.toUpperCase();
-console.log('A function which returns a string with all letters in uppercase (without built in string’s method). The function supports only english alphabet. ');
+console.log('A function which returns a str with all letters in uppercase (without built in str’s method). The function supports only english alphabet. ');
 console.log(uppercase);
 console.log("   ");
 
 
-//                      10      A function, which removes duplication of letters in string. The function must be case-insensitive.
-function removeDuplicationLetters(string) {
+//                      10      A function, which removes duplication of letters in str. The function must be case-insensitive.
+function removeDuplicationLetters(str) {
     let unique = '';
-    for (let i = 0; i < string.length; i++) {
-        if (string.lastIndexOf(string[i]) === string.indexOf(string[i])) {
-            unique += string[i];
+    for (let i = 0; i < str.length; i++) {
+        if (str.lastIndexOf(str[i]) === str.indexOf(str[i])) {
+            unique += str[i];
         }
     }
     return unique;
 }
 
-console.log('A function, which removes duplication of letters in string. The function must be case-insensitive: ');
+console.log('A function, which removes duplication of letters in str. The function must be case-insensitive: ');
 console.log(removeDuplicationLetters('mamo, zlipy snizhku'));
 console.log(removeDuplicationLetters('Hello I am Iron Man'));
 console.log("   ");

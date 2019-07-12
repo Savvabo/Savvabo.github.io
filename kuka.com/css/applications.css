@@ -1,0 +1,77 @@
+body {
+    font-family: 'KUKABulo-Bold';
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.right-side-bar {
+    padding: 179px 100px 106px;
+    position: fixed;
+    overflow-y: scroll;
+    margin-left: 491px;
+    height: 100%;
+}
+.range-item-2-active {
+    background-image: url(../images/global/allotment-img.svg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 233px;
+    height: 235px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+    display: block;
+}
+
+.range-item-1 {
+    background-image: url('../images/global/robot-range-img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.range-a-1 {
+    left: 30px;
+}
+.range-a-3 {
+    left: 80px;
+    top: 365px;
+}
+.range-a-2 {
+    position: absolute;
+    left: 240px;
+    top: 5px;
+    width: 233px;
+    height: 233px;
+    display: inline-block;
+}
+.range-a-2 img {
+    position: absolute;
+    bottom: 26px;
+    right: 27px;
+    width: 180px;
+    height: 180px;
+}
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+

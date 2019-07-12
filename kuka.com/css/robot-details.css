@@ -1,0 +1,173 @@
+body {
+    font-family: 'KUKABulo-Bold';
+}
+.range-item-1-active {
+    background-image: url(../images/global/allotment-img.svg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 233px;
+    height: 235px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+    display: block;
+}
+.range-a-2 {
+    left: 284px;
+    top: 5px;
+}
+.range-a-3 {
+    left: 96px;
+    top: 365px;
+}
+.range-a-1 {
+    position: absolute;
+    left: 33px;
+    top: 150px;
+    width: 233px;
+    height: 233px;
+    display: inline-block;
+}
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.range-a-1 img {
+    position: absolute;
+    bottom: 26px;
+    right: 27px;
+    width: 180px;
+    height: 180px;
+}
+.right-side-bar {
+    padding: 179px 100px 106px;
+    position: fixed;
+    overflow-y: scroll;
+    margin-left: 491px;
+    height: 100%;
+    width: 1429px;
+}
+.header-nav {
+    padding: 48px 0 36px;
+    margin-left: -9px;
+}
+.top-robot-block {
+    overflow: hidden;
+}
+.left-robot-block__main-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-robot-block img {
+    display: flex;
+}
+.top-robot-block__forms {
+    margin-left: 28px;
+    float: left;
+}
+.top-robot-block__forms button,
+.top-robot-block__forms a {
+    display: block;
+    width: 296px;
+    height: 71px;
+    line-height: 71px;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 auto 23px;
+    padding-left: 90px;
+}
+
+.pdf-modal {
+    background-color: #FF5800;
+    background-image: url(../images/robotic-range/pdf-file.svg);
+    border: 1px solid white;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 35px 15px;
+    border-radius: 45px;
+    color: white;
+    padding-right: 15px;
+}
+.pdf-modal:hover {
+    color: white;
+    text-decoration: none;
+}
+.send-pdf-modal  {
+    background-color: white;
+    border-radius: 45px;
+    border: 1px solid #FF5800;
+    background-image: url(../images/robotic-range/email.svg);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 25px;
+    color: #606060;
+    margin-left: -90px;
+    padding-left: 65px;
+}
+
+.send-pdf-modal:hover {
+    color: #606060;
+    text-decoration: none;
+}
+
+.robot-main-app-title {
+    font-size: 27px;
+    color: #575757;
+    display: block;
+    margin: 0 0 18px;
+}
+
+.robot-details table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 26px;
+    margin: 18px 0 40px;
+    font-family: 'KUKABulo';
+
+}
+.robot-details td {
+    padding: 10px 0;
+    width: 50%;
+}
+.robot-details tr {
+    border-top: 1px solid black;
+}
+.robot-details tr:last-child {
+    border-bottom: 1px solid black;
+}
+
+/*.robot-details  {*/
+    /*border-top: 1px solid black;*/
+    /*padding: 3px;*/
+    /*width: 50%;*/
+/*}*/
+.robot-details p  {
+    font-size: 26px;
+    font-family: 'KUKABulo';
+    line-height: 42px;
+    margin-top: 15px;
+    color: #787878;
+}
+
+.robot-details h2 {
+    font-size: 27px;
+    color: #575757;
+    display: block;
+    margin: 66px 0 13px;
+}

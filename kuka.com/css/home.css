@@ -1,0 +1,163 @@
+body {
+    background-image: url('../images/home/background-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'KUKABulo';
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.hide {
+    display: none;
+}
+
+.header-wrapper {
+    width: 1916px;
+    height: 188px;
+    flex-direction: row;
+    align-items: center;
+    /*border: 2px solid  black;*/
+}
+
+.language-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.language-icon {
+    background-image: url('../images/home/planet-img.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    /*position: relative;*/
+    /* right: 51vw; */
+    /* top: 3vw; */
+    /*margin: 58px 10px 58px 0;*/
+}
+
+.language-select {
+    width: 42px;
+    height: 57px;
+    font-size: 40px;
+    line-height: 70px;
+    color: white;
+}
+
+.allotment {
+    background-image: url('../images/global/allotment-img.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 98px;
+    height: 99px;
+    float: right;
+    margin-right: 55px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+    /*margin: 45px 60px;*/
+    /*position: relative;*/
+    /* right: 93.2vw; */
+    /* top: 2.3vw; */
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+.search-bar-home {
+    z-index: 2000;
+}
+.search-bar-home input {
+    background-image: url('../images/home/search-img.svg');
+    background-size: 45px;
+    background-position-x: 32px;
+    background-position-y: 25px;
+    background-repeat: no-repeat;
+    width: 710px;
+    height: 97px;
+    background-color: #fff;
+    color: #A7A7A7;
+    font-size: 39px;
+    margin: 60px auto 90px;
+    display: block;
+    border-radius: 50px;
+    border: none;
+    padding-left: 115px;
+    padding-right: 115px;
+}
+.range-wrapper-home {
+    text-align: center;
+    font-family: 'KUKABulo-Bold';
+    display: flex;
+
+}
+
+.range-item-home {
+    display: flex;
+    width: 436px;
+    height: 436px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.range-item-home-1 {
+    background-image: url('../images/home/robot-range-img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.range-item-home-2 {
+    background-image: url('../images/home/applications-img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.range-item-home-3 {
+    background-image: url('../images/home/services-img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.range-icon-home {
+    background-image: url('../images/home/arrow-img.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+}
+.range-icon-home-1 {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+.range-icon-home-2 {
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
+.range-icon-home-3 {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+.main-title-home {
+    color: white;
+    font-size: 73px;
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    bottom: 0;
+    margin-top: 20px;
+    display: block;
+}
+
+
+#kukaVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}

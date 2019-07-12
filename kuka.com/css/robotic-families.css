@@ -1,0 +1,251 @@
+body {
+    font-family: 'KUKABulo-Bold';
+}
+
+.range-item-1-active {
+    background-image: url(../images/global/allotment-img.svg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 233px;
+    height: 235px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+    display: block;
+}
+.range-a-2 {
+    left: 284px;
+    top: 5px;
+}
+.range-a-3 {
+    left: 96px;
+    top: 365px;
+}
+.range-a-1 {
+    position: absolute;
+    left: 33px;
+    top: 150px;
+    width: 233px;
+    height: 233px;
+    display: inline-block;
+}
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.range-a-1 img {
+    position: absolute;
+    bottom: 26px;
+    right: 27px;
+    width: 180px;
+    height: 180px;
+}
+
+.right-side-bar {
+    padding: 179px 100px 106px;
+    position: fixed;
+    overflow-y: scroll;
+    margin-left: 491px;
+    height: 100%;
+    width: 1429px;
+}
+.header-nav {
+    padding: 48px 0 36px;
+    margin-left: -9px;
+}
+.top-robot-block__forms {
+    position: absolute;
+    top: 220px;
+    left: 375px;
+}
+.top-robot-block__forms button,
+.top-robot-block__forms a {
+    display: block;
+    width: 296px;
+    height: 71px;
+    line-height: 71px;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 auto 23px;
+    padding-left: 90px;
+}
+
+.pdf-modal {
+    background-color: #FF5800;
+    background-image: url(../images/robotic-range/pdf-file.svg);
+    border: 1px solid white;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 35px 15px;
+    border-radius: 45px;
+    color: white;
+    padding-right: 15px;
+}
+.pdf-modal:hover {
+    color: white;
+    text-decoration: none;
+}
+.send-pdf-modal {
+    background-color: white;
+    border-radius: 45px;
+    border: 1px solid #FF5800;
+    background-image: url(../images/robotic-range/email.svg);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 25px;
+    color: #606060;
+    margin-left: -90px;
+    padding-left: 65px;
+}
+
+.send-pdf-modal:hover {
+    color: #606060;
+    text-decoration: none;
+}
+.sensitive-robot {
+    display: inline-block;
+    width: 252px;
+    height: 252px;
+    background-image: url(../images/robotic-range/instrument-01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.top-robot-block__title {
+    width: 199px;
+    height: 40px;
+    background-color: #333333;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: -10px;
+    overflow: hidden;
+}
+
+
+.filter-button {
+    height: 71px;
+    width: 100%;
+    color: white;
+    border-radius: 35px;
+    font-size: 42px;
+    padding: 0;
+    text-transform: uppercase;
+    background-color: #FE711E;
+}
+.form-control {
+    height: 71px;
+    font-size: 28px;
+    color: #A7A7A7;
+    border-radius: 35px;
+    margin-bottom: 48px;
+    padding-left: 80px;
+    font-family: 'KUKABulo';
+}
+.modal-header .fa-times {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 85px;
+    line-height: 85px;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+    font-size: 50px;
+}
+.modal-title {
+    font-size: 42px;
+    display: inline-block;
+    color: #FE711E;
+    margin: 0;
+}
+.close {
+    border-radius: 50%;
+    background-color: #FE711E !important;
+    position: absolute;
+    right: 40px;
+    top: 35px;
+    width: 85px;
+    height: 85px;
+    opacity: 1;
+}
+/*.close span {*/
+/*color: white;*/
+/*font-size: 9vw;*/
+/*font-weight: 300;*/
+/*position: relative;*/
+/*top: -2.8vw;*/
+/*right: .7vw;*/
+/*}*/
+.filter-container {
+    margin: 0 auto;
+}
+/*.filter-container div {*/
+/*margin: 2vw auto;*/
+/*}*/
+
+.modal-header {
+    border-bottom: none;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 32px 0 60px;
+}
+.modal-footer {
+    border-top: none;
+    padding: 41px 80px 60px;
+}
+.modal-body {
+    padding: 0 80px 0;
+    flex: 0;
+}
+.hide {
+    display: none;
+}
+.modal-content {
+    width: 756px;
+    height: 686px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+}
+.user-name {
+    background-image: url('../images/modal/name-img.svg') !important;
+    background-size: 30px;
+    background-position: 26px 15px;
+    background-repeat: no-repeat;
+}
+.user-company {
+    background-image: url('../images/modal/building.svg') !important;
+    background-size: 30px;
+    background-position: 26px 15px;
+    background-repeat: no-repeat;
+}
+.user-email {
+    background-image: url('../images/modal/email-img.svg') !important;
+    background-size: 30px;
+    background-position: 26px 15px;
+    background-repeat: no-repeat;
+}

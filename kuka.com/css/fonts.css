@@ -1,0 +1,15 @@
+
+@font-face {
+    font-family: 'KUKABulo-Bold';
+    src: url('../fonts/kukabulo-bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/kukabulo-bold.otf')  format('opentype'),
+    url('../fonts/kukabulo-bold.woff') format('woff'), url('../fonts/kukabulo-bold.ttf')  format('truetype'), url('../fonts/kukabulo-bold.svg#KUKABulo-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KUKABulo';
+    src: url('../fonts/kukabulo.eot?#iefix') format('embedded-opentype'),  url('../fonts/kukabulo.otf')  format('opentype'),
+    url('../fonts/kukabulo.woff') format('woff'), url('../fonts/kukabulo.ttf')  format('truetype'), url('../fonts/kukabulo.svg#KUKABulo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

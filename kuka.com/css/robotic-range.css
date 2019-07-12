@@ -1,0 +1,305 @@
+body {
+    font-family: 'KUKABulo-Bold';
+}
+
+.header-nav {
+    padding: 48px 0 15px;
+}
+
+.right-side-bar {
+    padding: 179px 100px 106px;
+    position: fixed;
+    overflow-y: scroll;
+    margin-left: 491px;
+    height: 100%;
+    width: 1429px;
+}
+
+
+.range-item-1-active {
+    background-image: url(../images/global/allotment-img.svg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 233px;
+    height: 235px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+    display: block;
+}
+.range-a-2 {
+    left: 284px;
+    top: 5px;
+}
+.range-a-3 {
+    left: 96px;
+    top: 365px;
+}
+.range-a-1 {
+    position: absolute;
+    left: 33px;
+    top: 150px;
+    width: 233px;
+    height: 233px;
+    display: inline-block;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.range-a-1 img {
+    position: absolute;
+    bottom: 26px;
+    right: 27px;
+    width: 180px;
+    height: 180px;
+}
+
+/*.range-item-1-active {*/
+/*background-image: url('../images/robotic-range/robot-range-active.png') !important;*/
+/*background-size: cover;*/
+/*background-repeat: no-repeat;*/
+/*}*/
+
+
+
+
+
+.video-wrapper h1 {
+    font-size: 50px;
+    display: block;
+    position: relative;
+    bottom: 15px;
+}
+
+.selection-wrapper {
+    text-align: center;
+}
+
+.header-selection {
+    display: inline-block;
+    overflow: hidden;
+    height: 227px;
+    border-radius: 115px;
+    background-color: #FBFBFB;
+    padding: 20px 10px;
+    margin: -41px auto auto;
+    -webkit-box-shadow: 0px 4px 16px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 16px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 16px -5px rgba(0, 0, 0, 0.75);
+}
+
+.header-selection-img-wrapper {
+    background-image: url('../images/robotic-range/allotment-robot.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 179px;
+    height: 181px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header-selection-img {
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 55px;
+}
+
+.roulette {
+    background-image: url('../images/robotic-range/roulette.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 74px;
+    height: 60px;
+}
+
+.speed {
+    background-image: url('../images/robotic-range/speed.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 83px;
+    height: 62px;
+}
+
+.weights {
+    background-image: url('../images/robotic-range/weights.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 72px;
+    height: 58px;
+}
+
+.header-selection-img span {
+    position: relative;
+    top: 70px;
+    left: -11px;
+    width: 123px;
+    height: 43px;
+    padding: 3px 19px;
+    font-size: 24px;
+    line-height: 43px;
+    color: #ffffff;
+    background-color: #FF5800;
+    z-index: 20;
+    border-radius: 40px;
+    -webkit-box-shadow: 0px 4px 16px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 16px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 16px -5px rgba(0, 0, 0, 0.75);
+}
+
+.header-selection-img__span-1 {
+    left: -20px !important;
+}
+
+.modal-pdf-link {
+    position: relative;
+    top: 70px;
+    right: 35px;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: inline-block;
+    background-image: url(../images/robotic-range/pdf-file.svg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+    background-color: #FF5800;
+}
+
+.header-selection__title span {
+    background-color: #333333;
+    height: 47px;
+    padding: 0 30px;
+    line-height: 47px;
+    font-size: 32px;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.robot-content {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.category-robot {
+    display: inline-block;
+    margin: 0 21px;
+    position: relative;
+}
+
+.sensitive-robot {
+    display: inline-block;
+    width: 252px;
+    height: 252px;
+    background-image: url(../images/robotic-range/instrument-01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.footer-selection__title {
+    width: 199px;
+    height: 40px;
+    background-color: #333333;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: -10px;
+    overflow: hidden;
+}
+
+.footer-selection__row {
+    background-image: url(../images/robotic-range/orange-row.svg);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+    width: 85px;
+    height: 54px;
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    bottom: 17px;
+    left: 185px;
+}
+
+.footer {
+    color: #727272;
+    font-size: 28px;
+    padding: 35px 0 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    text-align: center;
+    width: 1229px;
+}
+
+.footer a {
+    display: inline-block;
+    width: 213px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 21px;
+    text-decoration: none;
+    margin: 0 0 23px;
+    padding-left: 40px;
+}
+
+.pdf-modal {
+    background-color: #FF5800;
+    background-image: url(../images/robotic-range/pdf-file.svg);
+    border: 1px solid white;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 25px 8px;
+    border-radius: 30px;
+    color: white;
+    padding-right: 15px;
+}
+
+.pdf-modal:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.send-pdf-modal {
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid #FF5800;
+    background-image: url(../images/robotic-range/email.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 18px;
+    color: #606060;
+}
+
+.send-pdf-modal:hover {
+    color: #606060;
+    text-decoration: none;
+}
+
+
+

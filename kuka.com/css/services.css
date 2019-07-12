@@ -1,0 +1,146 @@
+body {
+    font-family: 'KUKABulo-Bold';
+}
+
+.right-side-bar {
+    padding: 179px 100px 48px;
+    position: fixed;
+    overflow-y: scroll;
+    margin-left: 491px;
+    height: 100%;
+}
+
+.anchors-wrapper ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.anchors-wrapper li {
+    align-items: center;
+    display: inline-flex;
+    padding: 3px 23px;
+    border-radius: 15px;
+    background-color: #707070;
+    color: white;
+    font-size: 27px;
+    float: left;
+    max-width: 366px;
+    height: 79px;
+    line-height: 33px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.anchor-active {
+    background-color: #FF5800 !important;
+}
+
+.description-wrapper {
+    display: block;
+    overflow-x: hidden;
+    width: 100%;
+    text-align: left;
+}
+
+.main-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 44px;
+    margin-top: 34px;
+    background-color: #FF5800;
+}
+.main-img {
+}
+.description-text  {
+    font-size: 26px;
+    font-family: 'KUKABulo';
+    line-height: 48px;
+}
+.description-text h1,
+.description-text h2 {
+    font-family: 'KUKABulo-Bold';
+}
+
+
+.description-text a {
+    color: #FF5800;
+    text-decoration: none;
+}
+
+.description-text a:hover {
+    color: #FF5800;
+    text-decoration: none;
+}
+.description-text ul {
+    margin: 15px 40px;
+    margin-bottom: 15px;
+    list-style: none;
+    color: black;
+}
+
+.description-text p {
+    margin: 15px 0;
+}
+.range-item-3-active {
+    background-image: url(../images/global/allotment-img.svg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 233px;
+    height: 235px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+    display: block;
+}
+.range-a-2 {
+    left: 80px;
+    top: 5px;
+
+}
+.range-item-1 {
+    background-image: url('../images/global/robot-range-img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.range-item-3 {
+    background-image: url('../images/global/applications-img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.range-a-3 {
+    left: 220px;
+    top: 110px;
+    width: 233px;
+    height: 233px;
+}
+.range-a-1 {
+    left: 33px;
+    top: 150px;
+    width: 179px;
+    height: 178px;
+}
+.range-a-3 img {
+    position: absolute;
+    top: 27px;
+    left: 29px;
+    width: 180px;
+    height: 180px;
+}
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

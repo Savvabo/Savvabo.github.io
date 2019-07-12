@@ -1,0 +1,223 @@
+
+.main_title-sez {
+    font-size: 6.9vw;
+    font-weight: 900;
+    color: #333333;
+    display: block;
+    width: 85vw;
+    margin: 6vw auto 0;
+}
+.selection-creature-st {
+    width: 90.4vw;
+    margin: 3vw auto 5vw;
+}
+
+
+
+.btn-left,
+.btn-right {
+    padding-left: 2vw;
+}
+
+
+.selection-creature-st a {
+    display: inline-block;
+    border-radius: 10vw;
+    height: 11vw;
+    line-height: 11vw;
+    width: 41vw;
+    text-align: center;
+    color: black;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 4vw;
+}
+.city-horse-selection-container {
+    width: 90.4vw;
+    margin: 3vw auto 5vw;
+}
+
+
+
+.city-horse-selection-container select {
+    border-radius: 10vw;
+    height: 11vw;
+    line-height: 7vw;
+    width: 41vw;
+    color: black;
+    background-color: white;
+    border: 2px solid #dbdbdb;
+    font-size: 4vw;
+    background-size: 2vw;
+}
+
+
+
+.selection-horse {
+    text-align: left;
+    margin-top: 6vw;
+}
+
+.horse-container {
+    width: 90.4vw;
+    margin-left: 0;
+}
+.button-left,
+.button-right{
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+
+
+
+
+.sz-race-number {
+    background: #00bdf2;
+    width: 7vw;
+    text-align: center;
+    height: 9vw;
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    color: #fff;
+    line-height: 8vw;
+    -webkit-border-bottom-right-radius: 2vw;
+    -webkit-border-bottom-left-radius: 2vw;
+    -moz-border-radius-bottomright: 2vw;
+    -moz-border-radius-bottomleft: 2vw;
+    border-bottom-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    font-size: 6vw;
+    font-family: Bebas;
+}
+
+.sel-horse-img img {
+    width: 100%;
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
+    height: auto;
+    display: block;
+
+}
+
+.sel-horse-name {
+    font-size: 5vw;
+    font-weight: 700;
+    color: #4d4d4d;
+}
+
+.sel-horse-city {
+    color: #4d4d4d;
+    font-size: 3.5vw;
+    margin-top: -1vw;
+}
+
+.sel-horse-winner {
+    margin-top: 2vw;
+    font-size: 4vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #4d4d4d;
+}
+
+.sel-horse-score {
+    font-size: 7vw;
+    font-weight: 900;
+    margin-top: -1vw;
+    color: #4d4d4d;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 1vw;
+    font-family: Bebas;
+}
+
+.season-firsts {
+    color: #4d4d4d;
+    font-size: 3.5vw;
+    margin-top: 1vw;
+}
+
+.all-of-them {
+    color: #4d4d4d;
+    font-size: 3.5vw;
+    margin-bottom: 2vw;
+}
+
+.hp {
+    color: #4d4d4d;
+    font-size: 3.5vw;
+    margin-top: -2vw;
+    margin-bottom: 4vw;
+}
+
+.pull-right {
+    float: right;
+    font-weight: 600;
+    margin-left: -5vw;
+    font-family: Bebas;
+    color: #4d4d4d;
+}
+
+
+.pagination {
+    display: block !important;
+    margin: 0 auto -1vw;
+    width: 100%;
+    text-align: center;
+}
+
+.page-link {
+    text-decoration: none;
+    text-align: center;
+    background-color: #f2f2f2 !important;
+    border-radius: 50%;
+    font-size: 5vw;
+    margin: 8px 0 15px 5px;
+    color: black;
+    border: none;
+    line-height: 7vw;
+}
+
+.page-link:hover {
+    color: white !important;
+    background-color: #00bdf2 !important;
+    font-weight: 600;
+}
+
+.page-link:active {
+    color: white !important;
+    background-color: #00bdf2 !important;
+    font-weight: 600;
+}
+
+.page-item {
+    text-align: center;
+    margin: 8px 0 15px 5px;
+    display: inline-block;
+}
+.page-link,
+.page-item:last-child .page-link,
+.page-item:first-child .page-link,
+.page-item:last-child .page-link:active {
+    width: 12vw;
+    height: 11.3vw;
+}
+
+
+.page-item:last-child .page-link {
+    border: none;
+    background-color: #f2f2f2 !important;
+    border-radius: 50% !important;
+}
+
+.page-item:first-child .page-link {
+    border: none;
+    background-color: #f2f2f2 !important;
+    border-radius: 50% !important;
+
+}
+
+.page-item:last-child .page-link:active {
+    border: none;
+}

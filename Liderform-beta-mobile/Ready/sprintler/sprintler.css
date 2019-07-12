@@ -1,0 +1,80 @@
+
+.main-menu {
+    padding-bottom: 0;
+}
+
+.info-card-list {
+    overflow: hidden;
+    padding: 0;
+    margin: 0 3vw 2vw;
+    display: flex;
+    font-size: 4vw;
+    justify-content: left;
+}
+
+.info-card-list div {
+    flex-direction: row;
+    margin: 1vw 2vw 3vw;
+    font-weight: 700;
+    font-size: 4.5vw;
+}
+
+.info-card-list div span {
+    font-weight: 600;
+    color: #666;
+    display: block;
+    line-height: 7vw;
+}
+
+.info-card-list div span.value {
+    color: #000;
+    font-weight: 700;
+    line-height: 5vw;
+}
+
+.info-card-race {
+    overflow: hidden;
+    padding: 0 0 7vw;
+    margin: 0 20vw 0 3vw;
+}
+
+.card-smth {
+    display: inline-block !important;
+    color: #000 !important;
+}
+/*.info-card-list-container {*/
+    /*margin-bottom: 3vw;*/
+/*}*/
+.info-card-list-container:nth-last-of-type(2) {
+    border-bottom: none !important;
+}
+.card-active-stat {
+    position: absolute;
+    color: black !important;
+    font-size: 4.5vw !important;
+    font-weight: 700;
+    top: 0;
+    left: 7.5vw;
+    width: 10vw;
+}
+.info-card-list a {
+    color: #333333;
+    text-decoration: none;
+}
+.info-card-list a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+.card-race-stats-active:after {
+    content: "";
+    height: 1.5vw;
+    width: 1.5vw;
+    background: #00bdf2;
+    position: absolute;
+    bottom: -.9vw;
+    border-radius: 50%;
+    left: calc(50% - 0.7vw);
+}
+.card-race-stats-active {
+    margin-top: 6vw;
+}

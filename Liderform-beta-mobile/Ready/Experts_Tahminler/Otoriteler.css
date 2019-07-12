@@ -1,0 +1,267 @@
+.main-title h1 {
+    color: #333333;
+    font-size: 6vw;
+    display: block;
+    margin: 3vw 0 2vw;
+    font-weight: 700;
+    line-height: 7.5vw;
+}
+
+.main-title h2 {
+    font-size: 4.5vw;
+    line-height: 7vw;
+    display: block;
+}
+
+.exp-pr-info {
+    margin-top: 7vw;
+}
+
+.exp-pr-img {
+    width: 14vw;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    float: left;
+}
+
+.exp-pr-name {
+    padding-left: 18vw;
+    display: block;
+    color: #232323;
+    font-weight: 700;
+    font-size: 4.5vw;
+}
+.exp-pr-location:hover {
+    color: #38B5F1;
+text-decoration: none;
+}
+.exp-pr-location {
+    color: #38B5F1;
+    font-size: 4.5vw;
+    font-weight: 600;
+    padding-left: 18vw;
+    margin-top: -0.5vw;
+    display: block;
+}
+
+.exp-pr-container {
+    display: block;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    background-color: #FAFAFA;
+    border-radius: 2vw;
+    color: #e5e5e5;
+    margin: 12vw auto 3vw;
+}
+
+.top-exp-container {
+    display: inline-block;
+    margin-left: 3vw;
+    margin-top: 3vw;
+}
+
+.exp-forecasts {
+    display: inline-block;
+}
+
+.exp-forecasts-img-0,
+.exp-forecasts-img-1 {
+    display: inline-block;
+}
+.exp-forecasts-img-0 {
+    background: url(https://img.liderform.com.tr/themes/icon-tahmiler.png);
+    background-repeat: no-repeat;
+    background-position: left 0;
+    background-size: 10vw;
+    width: 11vw;
+    height: 11vw;
+}
+
+.exp-forecasts-img-1 {
+    background: url(https://img.liderform.com.tr/themes/icon-altilim.png);
+    background-repeat: no-repeat;
+    background-position: left 0;
+    background-size: 10vw;
+    width: 11vw;
+    height: 11vw;
+
+}
+
+.exp-forecasts {
+    display: inline-block;
+    padding-left: 2vw;
+    color: #232323;
+    font-weight: 700;
+    font-size: 7vw;
+    font-family: Bebas;
+    text-transform: uppercase;
+}
+
+.exp-horse-type {
+    display: inline-block;
+    color: #666;
+    font-size: 5vw;
+    padding-left: 2vw;
+}
+
+.bottom-exp-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4vw;
+}
+
+.coupons {
+    flex-flow: column wrap;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.primary-coupon {
+    border-radius: 50%;
+    width: 7vw;
+    height: 7vw;
+    background-color: #3BB4F0;
+    color: white;
+    font-weight: 700;
+    font-size: 5vw;
+    line-height: 7vw;
+    padding-right: 0.5vw;
+    margin-bottom: 2vw;
+}
+
+.coupns-number {
+    color: #333;
+    font-weight: 400;
+    font-size: 5vw;
+    font-family: Bebas;
+
+}
+
+.coupons div:last-child {
+    margin-bottom: 20px;
+}
+
+.share-link:hover {
+    color: #7f7f7f;
+    text-decoration: none;
+}
+
+.share-link {
+    color: #7f7f7f;
+    font-size: 4vw;
+}
+
+.social-networks {
+    margin-top: 6vw;
+    float: right;
+    margin-right: 3vw;
+}
+
+.social-item {
+    color: #818181;
+    text-decoration: none;
+}
+
+.social-item img {
+    margin-left: 1vw;
+    width: 9.5vw;
+    height: auto;
+
+}
+
+.more-content-text {
+    color: #232323;
+    font-weight: 700;
+    font-size: 5vw;
+    margin-bottom: 5vw;
+    display: inline-block;
+    margin-left: 3vw;
+    margin-top: 15vw;
+}
+.news-container {
+    position: relative;
+    margin: 0 auto 2vw;
+    border-radius: 3vw;
+    overflow: hidden;
+}
+.news-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.news-info {
+    width: 100%;
+    height: auto;
+    padding: 1vw 2vw;
+    position: absolute;
+    bottom: 0;
+}
+.news-type {
+    border-radius: 1vw;
+    text-align: center;
+    font-size: 4vw;
+    padding: 0.7vw 2vw;
+    font-weight: 700;
+    color: white;
+}
+.nt-main {
+    background-color: #00bdf2;
+    margin-top: 10px;
+    width: 16vw;
+}
+.news-main-text {
+    color: #ffffff;
+    display: block;
+    font-weight: 700;
+    font-size: 4.5vw;
+    padding-top: 2vw;
+}
+
+.news-item {
+    width: 100%;
+    margin-left: -5px;
+    margin-right: 10px;
+    position: relative;
+}
+.news-sub-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 1.5vw;
+    margin-bottom: 10px;
+}
+.nt-sub {
+    background-color: #00bdf2;
+    position: absolute;
+    width: 14vw;
+    top: 9vw;
+    left: 6vw;
+    font-size: 3.5vw;
+    line-height: 6vw;
+}
+.news-sub-text {
+    color: black;
+    font-weight: 700;
+    font-size: 3.5vw;
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+
+
+@media screen and (min-width: 400px) and (max-width: 414px) {
+
+}
+@media screen and (min-width: 391px) and (max-width: 395px) {
+
+}
+
+@media screen and (min-width: 350px) and (max-width: 360px) {
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 340px) {
+
+}
